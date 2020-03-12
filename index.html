@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="script" href="javascript.js">
 </head>
 <body>
     <div id="password">
@@ -15,7 +14,7 @@
         <div id="innerBox">
             <h3>Your Secure Password</h3>
                 <div id="result">
-                    <p id=newPass></p>
+                    <div id=newPass></div>
                 </div>
             
         </div>
@@ -25,6 +24,14 @@
         <button id="copy">
             <h2>Copy</h2>
         </button>
+      
+           
+        <input type="checkbox" id="low">Lower Case</input>
+        <input type="checkbox" id="up">Upper Case</input>
+            <br>
+        <input type="checkbox" id="num">Numbers</input>
+        <input type="checkbox" id="sym">Symbols</input>
+        
     </div>
     <script src ="javascript.js"></script>
 </body>
