@@ -65,13 +65,15 @@ generateEl.addEventListener("click", function(event) {
     for (var i = 0; i <= userLength; i++) {
 
         password.push(master[Math.floor(Math.random() * master.length)])
-    }
-        newPass.textContent = password;
+    }   
+        newPass.textContent = password.join('');
         console.log(password);
         //password = password + master[randomIndex];
         console.log(randomIndex);
-    
-    console.log(master[i]);
+       
+        
+
+    console.log(master);
     console.log(password);
 });
 
