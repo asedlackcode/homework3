@@ -69,7 +69,7 @@ generateEl.addEventListener("click", function(event) {
         newPass.textContent = password.join('');
         console.log(password);
         //password = password + master[randomIndex];
-        console.log(randomIndex);
+        
        
         
 
