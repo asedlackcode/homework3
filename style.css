@@ -50,10 +50,20 @@ br {
 }
 
 body {
-    background-image: url("paper.gif");
-    background-repeat: repeat;
-    background-color: black;
+    background-image: url(../assets/images/passGenpic.jpg);
+   background-size: 100%;
+   
 } 
 input {
     font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    #password {
+        margin: unset;
+        padding-bottom: 10px;
+        margin-top: 30%;
+    }
+    #options {
+        display: inline-block;
+    }
 }
