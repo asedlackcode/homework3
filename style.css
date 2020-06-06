@@ -1,7 +1,7 @@
 #password {
     border: medium solid black;
     border-radius: 12px;
-    background-color: aqua;
+    background-color: rgba(51, 92, 92, 0.6);
     margin-top: 100px;
     margin-left: 33.3%;
     margin-right: 33.3%;
@@ -49,8 +49,8 @@ br {
     margin-top: 15px;
 }
 
-body {
-    background-image: url(../assets/images/passGenpic.jpg);
+html {
+    background-image: url(./assets/images/brickbackground.jpg);
    background-size: 100%;
    
 } 
